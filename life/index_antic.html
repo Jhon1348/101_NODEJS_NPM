@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    function user() {
+        let email = 'jmoreno1@iesebre.com';
+        let password ='12345'
+
+        function consoleme() {
+            console.log('Usuari:' + email)
+        }
+
+        return{
+            consoleme:consoleme,
+            email: email
+        }
+
+    }
+
+    var jhon= user()
+    jhon.consoleme()
+    console.log(jhon.email);
+    console.log('HEY!')
+//IIFE
+//    (funtion (){
+//
+//    })();
+</script>
+
+</body>
+</html>
