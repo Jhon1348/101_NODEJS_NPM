@@ -3,5 +3,5 @@ user('algu@.com').consoleme();
 
 
 //m'ha funcionat
-// require('./user.js');
+// require('./user.mjs');
 // console.log('jmorneo1');
